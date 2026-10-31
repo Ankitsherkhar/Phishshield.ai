@@ -1,142 +1,133 @@
 # 🛡️ PhishShield AI
-### AI-Powered Phishing & Scam Detection System
+### AI-Powered Phishing & Scam Detection Android Application
 
-**PhishShield AI** is an AI-based security application designed to detect phishing attacks, scam messages, suspicious URLs, and online fraud attempts.
+PhishShield AI is an Android-based cybersecurity application designed to help users identify potential phishing attacks, suspicious URLs, fraudulent messages, and online scams.
 
-The main goal of this project is to help users identify potentially dangerous digital communications before they click malicious links or share sensitive information.
-
----
+The project aims to make digital communication safer by using AI-assisted analysis to identify suspicious patterns and help users recognize potential cyber threats.
 
 ## 🚀 Project Overview
 
-Online scams and phishing attacks are becoming increasingly common. Attackers use fake websites, emails, SMS messages, and social engineering techniques to steal personal information.
+Phishing is one of the most common forms of cybercrime. Attackers use fake websites, fraudulent emails, SMS messages, and social engineering techniques to trick users into sharing sensitive information.
 
-PhishShield AI aims to provide an intelligent security solution that analyses suspicious content and helps users understand potential threats.
+**PhishShield AI** aims to provide a simple and user-friendly Android application that helps users analyse suspicious digital content and understand potential security risks.
 
 ## ✨ Key Features
 
-- 🔗 **URL Detection:** Analyse URLs and identify potentially malicious websites.
-- 📧 **Email Analysis:** Detect suspicious emails and phishing attempts.
-- 💬 **SMS Detection:** Analyse text messages for scam-related patterns.
-- 🤖 **AI-Based Detection:** Use machine learning and NLP techniques to classify suspicious content.
-- ⚠️ **Threat Identification:** Highlight suspicious links, impersonation, and social engineering patterns.
-- 📊 **Risk Assessment:** Provide a result indicating the potential risk level.
-- 🔍 **Detailed Analysis:** Explain why a particular message or URL may be suspicious.
+The application is being developed with the following objectives:
 
-*Note: These are the planned project features. Only mark features as implemented when they are actually working.*
+- 🔗 **URL Analysis:** Identify potentially suspicious and malicious website links.
+- 📧 **Email Analysis:** Analyse email content for phishing indicators.
+- 💬 **SMS Scam Detection:** Identify suspicious patterns in text messages.
+- 🤖 **AI-Based Analysis:** Explore AI techniques for identifying phishing and scam attempts.
+- ⚠️ **Threat Detection:** Highlight potentially dangerous content.
+- 📊 **Risk Assessment:** Present understandable security results to users.
+- 📱 **Android Application:** Provide an accessible mobile interface.
 
-## 🧠 Technologies Used
+*Feature availability depends on the current development stage.*
 
-The technology stack can include:
+## 🛠️ Technologies & Tools
 
-| Technology | Purpose |
+| Technology / Tool | Purpose |
 |---|---|
-| HTML | Webpage structure |
-| CSS | Website styling |
-| JavaScript | Frontend functionality |
-| Python | Backend development |
-| Flask | Backend framework |
-| Machine Learning | Phishing classification |
-| NLP | Text and message analysis |
-| Scikit-learn | ML model development |
-
-## ⚙️ How It Works
-
-1. The user enters a suspicious URL, email, or SMS message.
-2. The application receives the submitted content.
-3. The system extracts relevant features.
-4. AI/ML models analyse the content.
-5. The system predicts whether the content is legitimate or potentially malicious.
-6. Results are displayed with a risk assessment.
+| Kotlin | Primary programming language |
+| Android SDK | Android application development |
+| Gradle | Build automation and dependency management |
+| Gradle Kotlin DSL | Build configuration |
+| Google AI Studio (Gemini) | AI-assisted project development |
+| Git & GitHub | Version control and source code hosting |
+| Android Studio | Development environment |
 
 ## 📂 Project Structure
 
 ```text
-PhishShield-AI/
+PhishShield/
 │
-├── frontend/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
+├── app/
+│   └── Android application source code
 │
-├── backend/
-│   ├── app.py
-│   └── requirements.txt
+├── gradle/
+│   └── Gradle configuration files
 │
-├── model/
-│   └── phishing_model.pkl
-│
-├── dataset/
-│   └── phishing_dataset.csv
-│
-├── README.md
-└── .gitignore
+├── .env.example
+├── .gitignore
+├── build.gradle.kts
+├── gradle.properties
+├── metadata.json
+├── settings.gradle.kts
+└── README.md
 ```
 
-*The structure may change as development progresses.*
+## ⚙️ Getting Started
 
-## 💻 Installation & Setup
+Follow these steps to set up the project locally.
+
+### Prerequisites
+
+- Android Studio
+- JDK compatible with the project's Gradle configuration
+- Android SDK
+- Git
 
 ### 1. Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/Ankitsherkhar/phishshield.git
 ```
 
 ### 2. Open the Project
 
-```bash
-cd PhishShield-AI
-```
+Open Android Studio and select:
 
-### 3. Install Dependencies
+`File → Open → PhishShield`
 
-```bash
-pip install -r backend/requirements.txt
-```
+### 3. Sync Gradle
+
+Allow Android Studio to download the required dependencies and complete Gradle synchronization.
 
 ### 4. Run the Application
 
-```bash
-python backend/app.py
-```
-
-Open the local URL displayed by Flask in your browser.
+- Connect an Android device with USB debugging enabled or start an Android emulator.
+- Select the application run configuration.
+- Click the Run ▶ button.
 
 ## 🎯 Project Objectives
 
-- Increase awareness about phishing and online scams.
-- Help users identify suspicious digital content.
-- Explore practical applications of Artificial Intelligence.
-- Implement machine learning and Natural Language Processing.
-- Develop a beginner-friendly cybersecurity solution.
+1. Develop an Android application focused on cybersecurity.
+2. Understand the practical application of Artificial Intelligence in threat detection.
+3. Explore phishing detection and scam identification techniques.
+4. Create a simple and accessible security tool for everyday users.
+5. Gain practical experience with Kotlin and Android development.
 
-## 🔮 Future Improvements
+## 🔮 Future Enhancements
 
-- Browser extension integration.
-- Real-time phishing website detection.
-- Advanced machine learning models.
-- QR code scam detection.
-- Multilingual scam message detection.
-- Improved threat intelligence integration.
-- User reporting and threat database.
+- Real-time phishing URL detection.
+- Advanced AI-based email and SMS analysis.
+- Browser integration for suspicious website detection.
+- Detection of fake login pages.
+- Detailed threat reports and risk scoring.
+- Integration with reliable threat intelligence databases.
+- Improved detection accuracy using machine learning and NLP.
 
 ## 👨‍💻 Project Information
 
-**Project Name:** PhishShield AI
+| Detail | Information |
+|---|---|
+| Project Name | PhishShield AI |
+| Project Type | Android Application |
+| Domain | Artificial Intelligence & Cybersecurity |
+| Programming Language | Kotlin |
+| Development Tool | Android Studio |
+| AI Development Assistance | Google AI Studio (Gemini) |
+| Repository | GitHub |
 
-**Domain:** Artificial Intelligence & Cybersecurity
+## 🔐 Security Disclaimer
 
-**Project Type:** AI-Based Web Application
-
-**Developed By:** B.Tech Computer Science Engineering Students
-
-## ⚠️ Disclaimer
-
-PhishShield AI is an educational project intended to demonstrate AI-based phishing and scam detection. Its predictions are not guaranteed to identify every malicious message or website. Users should continue following safe cybersecurity practices.
+PhishShield AI is an educational project focused on cybersecurity awareness and phishing detection. Its results should not be considered a guarantee that a website, message, or email is safe. Users should always follow recommended cybersecurity practices.
 
 ---
 
-⭐ **If you find this project interesting, consider giving this repository a star!**
+### ⭐ Support
 
-*Building a safer digital world with Artificial Intelligence.*
+If you find this project interesting, consider giving the repository a star!
+
+**Building a safer digital world, one detection at a time.** 🛡️
