@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PhishShield AI</string>
+    <string name="filter_all">All Risks</string>
+    <string name="filter_high_risk">High Risk Only</string>
+    <string name="filter_medium_risk">Medium Risk</string>
+    <string name="filter_low_risk">Low Risk</string>
+    <string name="sort_date_newest">Date: Newest First</string>
+    <string name="sort_date_oldest">Date: Oldest First</string>
+    <string name="sort_score_highest">Risk: Highest First</string>
+    <string name="sort_score_lowest">Risk: Lowest First</string>
+    <string name="clear_history">Clear All</string>
+    <string name="reset_filters">Reset Filters</string>
+</resources>
